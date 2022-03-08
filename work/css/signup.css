@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    height: 100vh;
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 70vw;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.left_content{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.right_content{
+    width: 40vw;
+    background-color: #fff;
+}
+
+.first_left_content{
+    background: linear-gradient(125deg, #3593c292, #162a4f85), url(../img/bg2.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    padding: 100px 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.logo_txt{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.logo_txt1{
+    color: #162a4f;
+}
+.left_txt{
+    margin-top: 150px;
+}
+
+.left_txt h1{
+    margin-bottom: 10px;
+}
+
+.left_txt p{
+    font-size: 15px;
+}
+
+.divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 20px 0px;
+}
+
+.divider hr{
+    width: 60px;
+    margin: 0px 20px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 40px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.buttons{
+    width: 240px;
+    display: flex;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.bg_light{
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg_primary{
+    background-color: #162a4f;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input_fields{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.input_fields label{
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+.input_fields input{
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #000;
+    padding: 4px 0px;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.checkbox input{
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox .txt p{
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.checkbox .txt p:first-child{
+    margin-top: 10px;
+}
+
+.signup_btn{
+    width: 20vw;
+    height: 45px;
+    background-color: #162a4f;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    margin: auto;
+}
+
+.signup_btn:hover{
+    opacity: 0.9;
+}
+
+.form{
+    padding: 60px;
+}
+
+.form h1{
+  margin-bottom: 60px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}

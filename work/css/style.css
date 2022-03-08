@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    background: linear-gradient(125deg, #3593c292, #162a4f85), url(../img/bg4.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    width: 380px;
+    height: 650px;
+    background-color: #eee;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 200px;
+    transform: translateY(-50%);
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    width: 100px;
+    margin: auto;
+}
+.logo_txt{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.logo_txt1{
+    color: rgba(47, 6, 151);
+}
+
+.p_txt{
+    font-size: 12px;
+    color: rgb(111, 109, 109);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mg{
+    margin: 25px 0px;
+}
+
+.input_fields{
+    width: 100%;
+    box-shadow: 2px 2px 40px rgb(172, 170, 170);
+    margin-bottom: 30px;
+    border-left: 4px solid rgba(47, 6, 151);
+}
+
+.input_fields input{
+    width: 100%;
+    height: 35px;
+    border: 0;
+    outline: 0;
+    background: rgb(252, 252, 252);
+    padding: 0px 20px;
+}
+
+.input_fields input::placeholder{
+    color: rgb(167, 167, 167);
+}
+
+.input_fields input:first-child{
+    margin-bottom: 2px;
+}
+
+.items{
+    display: flex;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    color: rgb(111, 109, 109);
+}
+
+.items a{
+    text-decoration: none;
+    color: rgb(111, 109, 109);
+}
+
+.items a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    padding: 3px 35px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bg_dark{
+    background-color: #000;
+    color: #eee;
+    margin-right: 30px;
+}
+
+.bg_light{
+    background-color: #eee;
+    color: #000;
+    box-shadow: 0px 0px 1px #333;
+}
+
+.buttons{
+    margin-bottom: 30px;
+}
+
+.a_txt a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.a_txt a:hover{
+    text-decoration: underline;
+}
+
+.a_txt{
+    margin-bottom: 20px;
+}
+
+.login{
+    position: absolute;
+    bottom: 20%;
+    right: 200px;
+    text-align: center;
+}
+
+.login p{
+    font-size: 40px;
+    color: #eee;
+    font-weight: 400;
+}
